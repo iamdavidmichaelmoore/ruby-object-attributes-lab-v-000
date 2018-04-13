@@ -4,7 +4,7 @@ class Dog
     @name = name
   end
 
-  #NAME GETTER AND SETTER METHODS
+  #Dog GETTER AND SETTER METHODS
   #name getter method
   def name
     @name
@@ -15,7 +15,6 @@ class Dog
     @name = new_name
   end
 
-  #BREED GETTER AND SETTER methods
   #breed getter method
   def breed
     @breed
