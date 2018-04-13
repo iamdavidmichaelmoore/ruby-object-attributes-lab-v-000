@@ -11,8 +11,7 @@ class Person
 		@job = job_title
 	end
 
-	#Person GETTER METHODS
-	#gets name
+	#Person GETTER/SETTER METHODS
 	def name
 		@name
 	end
