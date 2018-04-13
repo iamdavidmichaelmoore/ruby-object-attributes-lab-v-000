@@ -1,26 +1,24 @@
+
 class Person
-  #initializes Person instances to be given a name
-  def initialize(name)
-    @name = name
-  end
 
-  #Person GETTER AND SETTER METHODS
-  #name getter method
-  def name
-    @name
-  end
+	#enables Person to be named.
+	def name=(persons_name)
+		@name = persons_name
+	end
 
-  #name setter method
-  def name=(new_name)
-    @name = new_name
-  end
+	#enables Person to be given a job title
+	def job=(job_title)
+		@job = job_title
+	end
 
-  #job getter method
-  def job
-    @job
-  end
+	#Person GETTER METHODS
+	#gets name
+	def name
+		@name
+	end
 
-  def job=(new_job_title)
-    @job = new_job_title
-  end
+	def job
+		@job
+	end
+
 end
